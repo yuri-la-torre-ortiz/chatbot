@@ -6,7 +6,7 @@ import LearningOptions from "./components/LearningOptions/LearningOptions";
 const config = {
     botName: "LearningBot",
     initialMessages: [
-        createChatBotMessage("Hi, I'm here to help. What programming languages do you want to learn?", {
+        createChatBotMessage("Hi, I'm here to help. What do you want to learn?", {
           widget: "learningOptions",
         }),
       ],
